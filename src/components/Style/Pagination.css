@@ -1,0 +1,42 @@
+/* style/pagination.css */
+
+.Files-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 1cm;
+}
+
+.Files-table th,
+.Files-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Files-table th {
+  background-color: #f2f2f2;
+}
+
+.Files-table input[type="checkbox"] {
+  margin: 0;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-controls span {
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,0 +1,136 @@
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar .navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.navbar .logo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-right: 15px; /* Comment out this line to remove excessive margin */
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar .nav-links li {
+  /* margin-right: 20px; */ /* Comment out this line to remove excessive margin */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.navbar .nav-links li:hover {
+  background-color: gray;
+}
+
+.navbar .nav-links li a:hover {
+  color: white;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.navbar .search-button,
+.navbar .manage-button,
+.navbar .login-button,
+.navbar .cart,
+.navbar .gdc-logo {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .search-button:hover,
+.navbar .manage-button:hover,
+.navbar .login-button:hover,
+.navbar .cart:hover,
+.navbar .gdc-logo:hover {
+  background-color: #f0f0f0;
+  color: white;
+}
+
+.navbar .search-button {
+  background-color: #f0f0f0;
+}
+
+.navbar .manage-button {
+  background-color: #f0f0f0;
+}
+
+.navbar .login-button a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar .cart {
+  background-color: #ffcc00;
+  color: white;
+}
+
+.navbar .gdc-logo {
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive styles for screens smaller than 768px (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+  .navbar .navbar-left {
+    justify-content: center;
+  }
+
+  .navbar .nav-links {
+    display: none; /* Hide the navigation links by default */
+    flex-direction: column; /* Stack the links vertically */
+    position: absolute;
+    top: 60px; /* Adjust as needed to avoid overlapping with the logo */
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Set the width to 100% to cover the entire screen */
+  }
+
+  .navbar .nav-links.active {
+    display: flex; /* Show the links when active (e.g., when a menu button is clicked) */
+  }
+
+  .navbar .nav-links li {
+    margin-right: 0; /* Reset margin for stacked links */
+    padding: 10px 20px;
+  }
+}

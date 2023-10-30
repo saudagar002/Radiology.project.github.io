@@ -1,0 +1,38 @@
+
+
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Define styles for the row using Flexbox */
+  .row {
+    display: flex;
+    justify-content: space-between; /* To separate the components */
+  }
+  
+  /* Define styles for the graph container */
+  .graph-container {
+    flex: 1; /* Allows the container to grow and take available space */
+    margin-right: 10px; /* Add some space between components */
+  }
+  
+  /* Define styles for the Apexchart container */
+  .apexchart-container {
+
+    margin-top: 05cm;
+    /* margin-left: 20cm; */
+    flex: 1; /* Allows the container to grow and take available space */
+    margin-left: 0px; /* Add some space between components */
+  }
+  
+  /* Additional styling for your Graph and Apexchart components can go here */
+  
+
+
+  

@@ -1,0 +1,64 @@
+.project-page {
+    display: flex;
+    background-color: aliceblue;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+.sidebar {
+    width: 24rem;
+    min-height: 100vh;
+    background-color: white;
+    /* margin-top: 10px; */
+}
+
+.psites {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.psites label {
+    margin-left: 10px;
+}
+
+#psearch {
+    width: 80%;
+    height: 2rem;
+    padding: 0 10px;
+}
+
+.search-btn {
+    height: 2rem;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.project-summery {
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.titel-info {
+    width: 100%;
+    background-color: rgb(167, 255, 167);
+    height: 4rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects-graph {
+    width: 100%;
+    min-height: 20rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.21);
+    margin-top: 3rem;
+}
+
+.info-tabs {
+    margin-top: 2rem;
+}

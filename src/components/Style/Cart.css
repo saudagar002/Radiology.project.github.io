@@ -1,0 +1,93 @@
+/* Cart.css */
+
+.cart-container {
+  padding: 20px;
+  /* Add padding to the container */
+  max-width: 800px;
+  /* Set a maximum width for the cart table */
+  margin: 0 auto;
+  /* Center the cart on the page */
+}
+
+.Files-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.Files-table th,
+.Files-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Files-table th {
+  background-color: #f2f2f2;
+}
+
+.Files-table input[type="checkbox"] {
+  margin: 0;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-controls span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Your CSS file or style block in JSX */
+.one {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.two {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Your CSS file or style block in JSX */
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Your CSS file or style block in JSX */
+.three {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.three:hover {
+  background-color: #e0a800;
+}

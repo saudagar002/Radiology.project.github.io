@@ -1,0 +1,77 @@
+/* Signup.css */
+
+/* Container styles */
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 3cm;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Header styles */
+h2 {
+  color: #333;
+}
+
+/* Input container styles */
+.input-container {
+  margin: 10px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Login and Reset Password styles */
+.login-reset-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.separator {
+  margin: 0 10px;
+  color: #ccc;
+}
